@@ -1,0 +1,495 @@
+body {
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #739fdd 0%, #567db3 100%);
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.wrapper {
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 40px;
+    max-width: 700px;
+    width: 100%;
+}
+
+.film h1, .film h2, .film h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 700;
+}
+
+.film h1 {
+    font-size: 2.2em;
+    color: #2a5298;
+    text-align: center;
+}
+
+.film h2 {
+    font-size: 1.5em;
+    color: #1e3c72;
+    margin-top: 32px;
+}
+
+.film h3 {
+    font-size: 1.2em;
+    color: #3a7bd5;
+}
+
+.film p {
+    margin-bottom: 18px;
+    line-height: 1.5;
+}
+
+.film img {
+    display: block;
+    margin: 18px auto;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    max-width: 100%;
+    height: auto;
+}
+button {
+    background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 28px;
+    text-decoration: wavy none;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(58,123,213,0.12);
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+    transform: translateY(-2px) scale(1.04);
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    display: inline-block;
+}
+header {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    margin-right: 40px;
+}
+/* Загальні стилі для сторінки */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f6f8fa;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+/* Хедер */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 48px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+header img {
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 32px;
+}
+
+/* Навігація */
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #1976d2;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+
+.navigation a:hover {
+    color: #1565c0;
+}
+
+/* Контейнер першого блоку */
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 48px;
+    background: #e3f2fd;
+    border-radius: 24px;
+    margin: 32px auto;
+    max-width: 1100px;
+    box-shadow: 0 4px 24px rgba(25, 118, 210, 0.08);
+}
+
+/* Ліва частина з текстом */
+.text-info {
+    max-width: 520px;
+}
+
+.text-info h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #1976d2;
+    margin-bottom: 12px;
+}
+
+.text-info h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 18px;
+}
+
+.text-info p {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 18px;
+}
+
+.text-info p:last-child {
+    background: #1976d2;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.12);
+    transition: background 0.2s;
+}
+
+.text-info p:last-child:hover {
+    background: #1565c0;
+}
+
+/* Права частина з картинкою */
+.first-container img {
+    max-width: 340px;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(25, 118, 210, 0.10);
+}
+body {
+    box-sizing: border-box;
+    background: linear-gradient(120deg, #739fdd 0%, #ffffff 40%, #6bd694 70%, #449cc5 100%);
+    margin: 0;
+    font-size: 22px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #222;
+}
+/* ...existing code... */
+body {
+    font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+    /* ...інші властивості... */
+}
+
+.film h1, .film h2, .film h3,
+.text-info h1, .text-info h2 {
+    font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+/* ...existing code... */
+p, h3, h4 {
+    font-style: italic;
+}
+/* ...existing code... */
+body {
+    margin: 0;
+}
+
+.navigation-list {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.nav-link {
+    margin-right: 70px;
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background: #ffffff;
+    height: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.heading-1 {
+    margin: 0;
+    font-weight: regular;
+    font-family: "Raleway", sans-serif;
+    font-size: 64px;
+}
+
+
+.film label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #1976d2;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+.film input[type="text"],
+.film input[type="number"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #bcdffb;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: 'Roboto', Arial, sans-serif;
+    margin-bottom: 12px;
+    background: #f6f8fa;
+    transition: border-color 0.2s;
+}
+
+.film input[type="text"]:focus,
+.film input[type="number"]:focus {
+    border-color: #1976d2;
+    outline: none;
+}
+
+.film input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+.film input[type="submit"] {
+    background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 0;
+    width: 100%;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 24px;
+    box-shadow: 0 2px 8px rgba(58,123,213,0.12);
+    transition: background 0.3s, transform 0.2s;
+}
+.film input[type="submit"]:hover {
+    background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+    transform: translateY(-2px) scale(1.03);
+}
+.angrycat {
+    background: rgb(255, 0, 0);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 32px 40px;
+    max-width: 700px;
+    width: 100%;
+}
+
+/* Video styles for .film */
+.film .video-container {
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.12);
+    background: #000;
+    aspect-ratio: 16/9;
+    margin: 18px 0;
+}
+
+.film video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* preserve aspect, crop if needed */
+    background: #000;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Optional overlay and play button (works with JS to toggle) */
+.film .video-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none; /* enable clicks to pass through unless button overrides */
+}
+
+.film .play-button {
+    pointer-events: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.92);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.18);
+    transition: transform 0.18s ease, background 0.18s ease;
+    cursor: pointer;
+}
+
+.film .play-button:hover {
+    transform: scale(1.06);
+    background: rgba(255,255,255,0.98);
+}
+
+/* Simple triangle play icon using border trick for fallback */
+.film .play-button::before {
+    content: "";
+    display: inline-block;
+    margin-left: 4px;
+    width: 0;
+    height: 0;
+    border-left: 14px solid #1976d2;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+}
+
+/* Video caption/description under the video */
+.film .video-caption {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+/* Small screens adjustments */
+@media (max-width: 520px) {
+    .film .play-button { width: 52px; height: 52px; }
+    .film .play-button::before { border-left-width: 12px; border-top-width: 8px; border-bottom-width: 8px; }
+    .film .video-container { aspect-ratio: 16/9; }
+}
+/* ...existing code... */
+
+/* Styles for phone input, issue label and textarea */
+.film label[for="tel"],
+.film label[for="issue"] {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #1976d2;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.film input[type="tel"] {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #bcdffb;
+    border-radius: 8px;
+    font-size: 1em;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #f6f8fa;
+    margin-bottom: 12px;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.12s ease;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.film input[type="tel"]::placeholder {
+    color: #9fbbe8;
+}
+
+/* Focus / accessible states */
+.film input[type="tel"]:focus {
+    border-color: #1976d2;
+    box-shadow: 0 6px 18px rgba(25,118,210,0.08);
+    outline: none;
+    transform: translateY(-1px);
+}
+
+/* Textarea for issue description */
+.film textarea#issue {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #bcdffb;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto', Arial, sans-serif;
+    background: #ffffff;
+    min-height: 120px;
+    resize: vertical; /* allow vertical resize only */
+    margin-bottom: 12px;
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+.film textarea#issue::placeholder {
+    color: #9fbbe8;
+    font-style: normal; /* placeholder not italic to keep readability */
+}
+
+.film textarea#issue:focus {
+    border-color: #1976d2;
+    box-shadow: 0 8px 30px rgba(25,118,210,0.06);
+    outline: none;
+}
+
+/* Small screens: keep inputs readable */
+@media (max-width: 520px) {
+    .film input[type="tel"],
+    .film textarea#issue {
+        padding: 12px;
+        font-size: 0.98rem;
+    }
+}
+
+/* ...existing code... */
+body {
+  cursor: url("Pusheen\ the\ Cat\ Animated--pointer--SweezyCursors.cur"), auto;}
+
+input[type="submit"],
+input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    font-family: "Oswald", sans-serif;
+}
