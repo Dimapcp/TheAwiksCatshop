@@ -8,9 +8,11 @@ body {
 }
 
 .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    margin-top: 40px;
 }
 
 .wrapper {
@@ -89,16 +91,7 @@ header {
     display: flex;
 }
 
-.navigation-list {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
 
-.nav-link {
-    margin-right: 40px;
-}
 /* Загальні стилі для сторінки */
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
@@ -125,24 +118,36 @@ header img {
 }
 
 /* Навігація */
-.navigation {
-    list-style: none;
+.navigation-list {
     display: flex;
+    align-items: center;
     gap: 32px;
-    margin: 0;
+    list-style: none;
     padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
-.navigation a {
+.navigation-list a {
     text-decoration: none;
     color: #1976d2;
-    font-weight: 500;
-    font-size: 1.1rem;
-    transition: color 0.2s;
+    transition: 0.2s;
 }
 
-.navigation a:hover {
+.navigation-list a:hover {
     color: #1565c0;
+}
+@media (max-width: 768px) {
+
+    .navigation-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        font-size: 18px;
+    }
+
 }
 
 /* Контейнер першого блоку */
@@ -232,24 +237,8 @@ body {
     margin: 0;
 }
 
-.navigation-list {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-}
 
-.nav-link {
-    margin-right: 70px;
-    text-decoration: none;
-    color: #000000;
-}
+
 
 header {
     background: #ffffff;
@@ -482,6 +471,7 @@ header {
 body {
   cursor: url("Pusheen\ the\ Cat\ Animated--pointer--SweezyCursors.cur"), auto;}
 
+
 input[type="submit"],
 input[type="reset"] {
     background: none;
@@ -492,4 +482,40 @@ input[type="reset"] {
     cursor: pointer;
     outline: inherit;
     font-family: "Oswald", sans-serif;
+}
+@media (max-width: 768px) {
+
+
+  .search-form {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+/* header li a{display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-self: space-around;
+    padding: 20px;} */
+
+    /* .navigation-list {
+    display: flex;
+    align-items: center;
+    gap: auto;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+} */
+
+    header {
+        height: 100%;
+    }
+    header *{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
 }
